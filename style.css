@@ -1,0 +1,152 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+.nav{
+    padding: 10px 30px;
+    display:  inline-flex;
+    position: fixed;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+    z-index: 10;
+}
+.nav img{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-right: 50px;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+}
+.missionimg{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.missiontxt{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+.missiontxt h2, .missiontxt h4{
+    margin: 5px 5px; 
+    text-align: center;
+}
+.missionimg img{
+    display: flex;
+    height: 700px;
+    width: 1200px;
+}
+.totm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.totm h2, .totm h4{
+    margin: 10px 10px;
+}
+.teapictures{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 0px;
+    width: 1000px;
+}
+.teapictures img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+}
+.teapictures figcaption{
+    text-align: center;
+}
+.teapictures figure{
+    margin: 10px 10px;
+}
+.locationimg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.locationimg img{
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+.locationtxt{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loctextbox{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.locationtxt h2{
+    text-align: center;
+    margin: 0;
+}
+.locationsub{
+    display: flex;
+    justify-content: center;
+}
+.locationsub div{
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+}
+.locationsub p, .locationsub h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.contact{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact h5, .contact h2{
+    margin: 20px 0;
+}
